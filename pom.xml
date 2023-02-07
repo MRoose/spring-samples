@@ -20,10 +20,8 @@
   <version>latest</version>
 
   <modules>
-    <module>confg-server</module>
-    <module>eureka-server</module>
-    <module>mvc</module>
-    <module>webflux</module>
+    <module>sample1</module>
+    <module>sample2</module>
   </modules>
 
   <properties>
