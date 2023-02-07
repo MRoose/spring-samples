@@ -1,7 +1,7 @@
-package com.github.mroose.webflux.controller;
+package com.github.mroose.controller;
 
-import com.github.mroose.webflux.dto.ToDo;
-import com.github.mroose.webflux.service.ToDoService;
+import com.github.mroose.dto.ToDo;
+import com.github.mroose.service.ToDoService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

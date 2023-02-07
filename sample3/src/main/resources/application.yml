@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+#management:
+#  endpoints:
+#    enabled-by-default: true
+#    web:
+#      exposure:
+#        include: "*"
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 60000
+        readTimeout: 60000
+        loggerLevel: full
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+  show-actuator: true

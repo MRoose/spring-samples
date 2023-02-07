@@ -1,6 +1,6 @@
-package com.github.mroose.webflux.service;
+package com.github.mroose.service;
 
-import com.github.mroose.webflux.dto.ToDo;
+import com.github.mroose.dto.ToDo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;

@@ -1,3 +1,3 @@
-package com.github.mroose.webflux.dto;
+package com.github.mroose.dto;
 
 public record ToDo(Integer userId, Integer id, String title, Boolean completed) {}

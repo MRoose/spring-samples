@@ -1,4 +1,4 @@
-package com.github.mroose.webflux.config;
+package com.github.mroose.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
